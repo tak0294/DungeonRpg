@@ -1,0 +1,4 @@
+chara_code,chara_name,chara_str,chara_def,chara_dex,chara_int,chara_luck,chara_hp,chara_mp,chara_sex,chara_exp,chara_lvl,chara_maxHp,chara_maxMp
+1,TAK,15,5, 3,2,0,10,10,1,5,1,10,10
+2,EM, 15,5, 2,2,0,1,0,1,5,1,10,0
+3,KEN,12,5,10,2,0,1,0,1,5,1,10,0

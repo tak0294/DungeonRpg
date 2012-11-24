@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="treasure_code" type="INTEGER" primary="true" />
+<item name="treasure_itemCode" type="INTEGER" />
+<item name="treasure_floorNum" type="INTEGER" />
+<item name="treasure_rank"	type="INTEGER" />
+</resources>

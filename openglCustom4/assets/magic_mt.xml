@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="magic_code" type="INTEGER" primary="true" />
+		<item name="magic_name" type="TEXT" />
+		<item name="magic_mp" type="INTEGER" />
+		<item name="magic_str" type="INTEGER" />
+		<item name="magic_cureHp" type="INTEGER" />
+		<item name="magic_cureMp" type="INTEGER" />
+		<item name="magic_type" type="INTEGER" />
+		<item name="magic_job" type="INTEGER" />
+		<item name="magic_target" type="INTEGER" />
+		<item name="magic_getLevel" type="INTEGER" />
+		<item name="magic_description" type="TEXT" />
+		<item name="magic_usableField" type="INTEGER" />
+		<item name="magic_usableBattle" type="INTEGER" />
+		<item name="magic_buffTurnNum" type="INTEGER" />
+		<item name="magic_effectType" type="INTEGER" />
+</resources>

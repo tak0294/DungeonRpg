@@ -1,0 +1,53 @@
+"event_code","event_src","event_onceViewFlag","event_direction","event_autoStartFlag"
+1,"message[結晶と$液体の$中間状態としては、$液晶のほかに柔軟性結晶（プラスチック・クリスタル）がある。]
+image[rock]
+message[結晶では粒子の位置と方向に長距離秩序がある。それに対し液体では粒子の位置・方向とも長距離秩序はない。]
+image[wall_door|代表的な$液晶相としてネマティック液晶（Nematic Liquid Crystal）やスメクティック液晶（Smectic Liquid Crystal）などがある。]
+message[液晶は厳密には結晶と液体の中間状態のうち、粒子の方向の何らかの秩序は保っているものの、3次元的な位置の秩序を失った状態である。]
+message[一方の柔軟性結晶は3次元的な位置の秩序を保っているものの、粒子の方向の秩序が失われた状態である。]
+",0,0,1
+2,"
+if(!1){
+	message[フラグ１はOFFです]
+	if(2){
+		set[1]
+		message[結晶と$液体の$中間状態としては、$液晶のほかに柔軟性結晶（プラスチック・クリスタル）がある。]
+		image[rock]
+		message[結晶では粒子の位置と方向に長距離秩序がある。それに対し液体では粒子の位置・方向とも長距離秩序はない。]
+		image[wall_door|代表的な$液晶相としてネマティック液晶（Nematic Liquid Crystal）やスメクティック液晶（Smectic Liquid Crystal）などがある。液晶は厳密には結晶と液体の中間状態のうち、粒子の方向の何らかの秩序は保っているものの、3次元的な位置の秩序を失った状態である。]
+		message[一方の柔軟性結晶は3次元的な位置の秩序を保っているものの、粒子の方向の秩序が失われた状態である。]
+	}else{
+		if(3){
+			set[2]
+			message[これはいつ表示される？]
+		}else{
+			set[3]
+			message[無限]
+		}
+	}
+}
+else{
+	message[2度目ですね]
+}
+",0,0,1
+3,"
+if(!10){
+	message[壁にペンギンの絵と何かメッセージが刻まれている]
+	image[penguin1|これは太古の昔にこの地を治めていたペンギンです。]
+	set[10]
+}
+",0,0,0
+4,"message[なにもないようだ]",0,0,0
+5,"
+battle[1,1;1]
+",0,0,0
+6,"
+if(confirm[上がり階段がある]){
+stairsUp[1]
+}
+",0,-1,1
+7,"
+if(confirm[下り階段がある]){
+stairsDown[1]
+}
+",0,-1,1

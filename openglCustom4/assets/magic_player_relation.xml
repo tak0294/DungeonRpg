@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="magicrel_code" type="INTEGER" primary="true" />
+		<item name="magicrel_playerCode" type="INTEGER" />
+		<item name="magicrel_magicCode" type="INTEGER" />
+</resources>

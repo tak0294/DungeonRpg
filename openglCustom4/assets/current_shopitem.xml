@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="savedItem_code" type="INTEGER" primary="true" />
+		<item name="savedItem_itemCode" type="INTEGER" />
+		<item name="savedItem_amount" type="INTEGER" />
+</resources>

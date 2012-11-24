@@ -1,0 +1,3 @@
+"chara_code","chara_name","chara_str","chara_def","chara_dex","chara_int","chara_luck","chara_hp","chara_mp","chara_sex","chara_exp","chara_lvl","chara_maxGroup","chara_imageName","chara_routinType","chara_gold","chara_floorLevel","chara_rarelity"
+1,"ゴブリン",8,5,2,2,0,10,0,1,2,1,2,"enemy_1",1,50,1,1
+2,"コウモリ",10,4,4,2,0,8,0,1,2,1,2,"enemy_2",1,50,1,1

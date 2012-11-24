@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="event_code" type="INTEGER" primary="true" />
+		<item name="event_src" type="TEXT" />
+		<item name="event_onceViewFlag"  type="INTEGER" />
+		<item name="event_direction"  type="INTEGER" />
+		<item name="event_autoStartFlag" type="INTEGER" />
+</resources>

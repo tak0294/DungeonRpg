@@ -1,0 +1,17 @@
+		text = "";
+		text += pl.name + "  Level:" + pl.lvl + "\n";
+		text += "Exp:" + String.format("%4d", pl.exp) + "\n";
+
+		text += "HP/MAX : " + String.format("%4d", pl.getHp()) + " / " + String.format("%4d", pl.getHpMax()) + "$";
+		text += "MP/MAX : " + String.format("%4d", pl.getMp()) + " / " + String.format("%4d", pl.getMpMax()) + "$";
+		text += "‚µ‚å‚­‚¬‚å‚¤:" + String.format("%4s", CharacterDefine.jobNames[pl.getJob()]) + "$";
+		text += "   ‚¿‚©‚ç:" + String.format("%4d", pl.getStr() + pl.getEquipStr());
+		text += "   |   ‚Ô‚«:" + ( (equipList.get(ItemDefine.ITEM_WEAPON))!=null?equipList.get(ItemDefine.ITEM_WEAPON).get("item_name"):"‚È‚µ") + "$";
+		text += "   ‚Ü‚à‚è:" + String.format("%4d", pl.getDef() + equipDef);
+		text += "   |  ‚ ‚½‚Ü:" + ( (equipList.get(ItemDefine.ITEM_ARMOR_HEAD))!=null?equipList.get(ItemDefine.ITEM_ARMOR_HEAD).get("item_name"):"‚È‚µ") + "$";		
+		text += "  ‚·‚Î‚â‚³:" + String.format("%4d", pl.getDex());
+		text += "   |  ‚©‚ç‚¾:" + ( (equipList.get(ItemDefine.ITEM_ARMOR_BODY))!=null?equipList.get(ItemDefine.ITEM_ARMOR_BODY).get("item_name"):"‚È‚µ") + "$";		
+		text += "   ‚¿‚¹‚¢:" + String.format("%4d", pl.getInteri());
+		text += "   |   ‚ ‚µ:" + ( (equipList.get(ItemDefine.ITEM_ARMOR_FOOT))!=null?equipList.get(ItemDefine.ITEM_ARMOR_FOOT).get("item_name"):"‚È‚µ") + "$";		
+		text += " ‚¤‚ñ‚Ì‚æ‚³:" + String.format("%4d", pl.getLuck()) ;
+		text += "   |   ‚½‚Ä:" + ( (equipList.get(ItemDefine.ITEM_ARMOR_SHIELD))!=null?equipList.get(ItemDefine.ITEM_ARMOR_SHIELD).get("item_name"):"‚È‚µ") + "$";		

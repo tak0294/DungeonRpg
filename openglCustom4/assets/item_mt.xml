@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="item_code" type="INTEGER" primary="true" />
+<item name="item_type" type="INTEGER" />
+<item name="item_subtype" type="INTEGER" />
+<item name="item_name" type="TEXT" />
+<item name="item_rarelity" type="INTEGER" />
+<item name="item_floorLevel" type="INTEGER" />
+<item name="item_weight" type="INTEGER" />
+<item name="item_str" type="INTEGER" />
+<item name="item_def" type="INTEGER" />
+<item name="item_hp" type="INTEGER" />
+<item name="item_mp" type="INTEGER" />
+<item name="item_description" type="TEXT" />
+<item name="item_usableBattle" type="INTEGER" />
+<item name="item_usableField" type="INTEGER" />
+<item name="item_maxStock" type="INTEGER" />
+<item name="item_buffTurnNum" type="INTEGER" />
+<item name="item_cost" type="INTEGER" />
+</resources>

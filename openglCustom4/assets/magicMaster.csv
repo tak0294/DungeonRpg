@@ -1,0 +1,4 @@
+"magic_code","magic_name","magic_mp","magic_str","magic_cureHp","magic_cureMp","magic_type","magic_job","magic_target","magic_getLevel","magic_description","magic_usableField","magic_usableBattle","magic_buffTurnNum","magic_effectType"
+1,"ファイア",2,8,0,0,0,1,0,2,"たんたいこうげきのまほう\nてき1たいに ほのおでしょうダメージ",0,1,0,0
+2,"ヒール",4,0,20,0,1,1,0,2,"たんたいを20かいふくする",1,1,0,10
+

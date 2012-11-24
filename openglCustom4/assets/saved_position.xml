@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="saved_code" type="INTEGER" primary="true" />
+		<item name="saved_floor" type="INTEGER" />
+		<item name="saved_x" type="INTEGER" />
+		<item name="saved_y" type="INTEGER" />
+		<item name="saved_direction" type="INTEGER" />
+</resources>

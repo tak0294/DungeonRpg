@@ -1,0 +1,23 @@
+"event_code","event_src","event_onceViewFlag","event_direction","event_autoStartFlag"
+1,"message[なにもないようだ]",0,0,0
+2,"
+if(confirm[上がり階段がある]){
+stairsUp[1]
+}
+",0,-1,1
+3,"
+if(confirm[下り階段がある]){
+stairsDown[1]
+}
+",0,-1,1
+4,"
+battle[1,1;1]
+",0,0,0
+10,"
+if(!1){
+	message[初めて読むメッセージです]
+	set[1]
+}else{
+	message[2回目以降に読むメッセージです]
+}
+",0,-1,1

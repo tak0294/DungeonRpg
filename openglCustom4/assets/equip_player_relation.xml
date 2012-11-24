@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="equiprel_code" type="INTEGER" primary="true" />
+		<item name="equiprel_playerCode" type="INTEGER" />
+		<item name="equiprel_itemCode" type="INTEGER" />
+</resources>

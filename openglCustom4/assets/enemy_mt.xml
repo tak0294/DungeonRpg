@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<item name="chara_code" type="INTEGER"  primary="true" />
+		<item name="chara_name" type="TEXT" />
+		<item name="chara_str" type="INTEGER" />
+		<item name="chara_def" type="INTEGER" />
+		<item name="chara_dex" type="INTEGER" />
+		<item name="chara_int" type="INTEGER" />
+		<item name="chara_luck" type="INTEGER" />
+		<item name="chara_hp" type="INTEGER" />
+		<item name="chara_mp" type="INTEGER" />
+		<item name="chara_sex" type="INTEGER" />
+		<item name="chara_exp" type="INTEGER" />
+		<item name="chara_lvl" type="INTEGER" />
+		<item name="chara_maxGroup" type="INTEGER" />
+		<item name="chara_imageName" type="TEXT" />
+		<item name="chara_routinType" type="INTEGER" />
+		<item name="chara_gold" type="INTEGER" />
+		<item name="chara_floorLevel" type="INTEGER" />
+		<item name="chara_rarelity" type="INTEGER" />
+</resources>
